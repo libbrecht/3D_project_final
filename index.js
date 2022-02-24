@@ -6,7 +6,7 @@ const scene = new THREE.Scene()
 
 
 const loader = new GLTFLoader()
-loader.load('./assets/projet3D_maison.glb', function(gltf){
+loader.load('./assets/projet3D_maison2.glb', function(gltf){
     console.log(gltf)
     const root = gltf.scene;
     root.scale.set(0.05,0.05,0.05);
